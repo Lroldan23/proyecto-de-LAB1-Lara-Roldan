@@ -177,3 +177,18 @@ body {
       color: white;
     }
 
+.back-arrow {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 4rem;       /* tamaño de la flecha */
+  color: black;         /* color de la flecha */
+  text-decoration: none; 
+  font-weight: 850;      
+  z-index: 999;       
+  transition: opacity 0.2s ease;
+}
+
+.back-arrow:hover {
+  opacity: 0.6;
+}
